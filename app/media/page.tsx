@@ -25,8 +25,7 @@ export default function MediaPage() {
       </h1>
 
       <div>
-        <video
-          src="/images/video-01.mp4"
+        <video src="https://dwyzAmxFgYQ3K4wA.public.blob.vercel-storage.com/videos/video-01.mp4"
           controls
           style={{
             width: "100%",
