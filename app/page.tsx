@@ -25,7 +25,7 @@ export default function Home() {
     <section id="home" className="hero">
       <div className="hero-image"><Image src="/images/author-portrait.jpg" alt="صورة الكاتب" fill priority sizes="(max-width: 900px) 100vw, 55vw" /></div>
       <div className="hero-copy"><p className="eyebrow">أكاديمي&nbsp; | &nbsp;روائي&nbsp; | &nbsp;ناقد سينمائي</p><h1>أ.د. ماهر مجيد إبراهيم</h1><p>أبحث في السينما والإنسان...<br/>وأكتب الرواية لأقترب أكثر من الحقيقة.</p><a href="/about">
-  <a href="#biography"><button>تعرّف على مسيرتي</button></a>
+  <a href="/about"><button>تعرّف على مسيرتي</button></a>
 </a></div>
       <div className="hero-quote">“السينما حياة أخرى<br/>نعيشها كي نفهم حياتنا الأولى.”<small>دأ.د. ماهر مجيد إبراهيم</small></div>
       <div className="sidewords">CINEMA<br/>LITERATURE<br/>RESEARCH<br/>IDEAS<br/>HUMAN</div>
@@ -40,7 +40,13 @@ export default function Home() {
 
     <section className="bio"><div><h2>نبذة عن الدكتور</h2><p>أ.د. ماهر مجيد إبراهيم الخيال أكاديمي وباحث في الفنون السينمائية، يعمل أستاذاً في كلية الفنون الجميلة، وله إسهامات في النقد السينمائي والدراسات البصرية والثقافة السينمائية، إلى جانب مشروع روائي يتابع الإنسان والمدينة والذاكرة.</p><button className="outline">المزيد عني ←</button></div><Image src="/images/author-portrait.jpg" alt="الدكتور أثناء القراءة" width={420} height={360}/><ul><li>🎓 أستاذ في كلية الفنون الجميلة</li><li>▤ باحث في السينما والثقافة البصرية</li><li>📖 روائي وكاتب</li><li>✎ ناقد سينمائي</li><li>◉ مشارك في مؤتمرات ومهرجانات دولية</li></ul><div className="quote-card">“أؤمن بأن السينما والرواية وجهان لحياة واحدة: من نحن؟ وكيف نصنع معنى في عالم متغير؟”<small>أ.د. ماهر مجيد إبراهيم</small></div></section>
 
-    <section id="articles" className="section three"><div><SectionTitle title="أحدث المقالات" link="عرض كل المقالات"/><Article title="السينما والفن: قراءة في أفلام الذاكرة" date="12 أغسطس 2025"/><Article title="الرواية والسينما... تقاطعات سردية" date="28 مايو 2025"/><Article title="صورة المرأة في السينما العربية المعاصرة" date="15 يوليو 2025"/></div><div id="events"><SectionTitle title="الفعاليات والندوات" link="عرض كل الفعاليات"/><Article title="محاضرة: السينما والهوية" date="24 سبتمبر"/><Article title="ندوة: الرواية والسينما" date="10 أكتوبر"/><Article title="مشاركة في مهرجان بغداد السينمائي" date="18 نوفمبر"/></div><div id="media"><SectionTitle title="الصور والفيديو" link="عرض الكل"/><div className="video"><Image src="/images/author-portrait.jpg" alt="فيديو من لقاء" fill/><span>▶</span><p>في حوار حول مستقبل السينما العربية</p></div></div></section>
+    <section id="articles" className="section three"><div><SectionTitle title="أحدث المقالات" link="عرض كل المقالات"/><Article title="السينما والفن: قراءة في أفلام الذاكرة" date="12 أغسطس 2025"/><Article title="الرواية والسينما... تقاطعات سردية" date="28 مايو 2025"/><Article title="صورة المرأة في السينما العربية المعاصرة" date="15 يوليو 2025"/></div><div id="events"><SectionTitle title="الفعاليات والندوات" link="عرض كل الفعاليات"/><Article title="محاضرة: السينما والهوية" date="24 سبتمبر"/><Article title="ندوة: الرواية والسينما" date="10 أكتوبر"/><Article title="مشاركة في مهرجان بغداد السينمائي" date="18 نوفمبر"/></div><div id="media">
+  <SectionTitle title="الصور والفيديو" link="عرض الكل"/>
+  <div className="video">
+  <video src="/images/video-01.mp4" controls style={{ width: "100%", height: "240px", objectFit: "cover", display: "block" }} />
+  <p>حفل توقيع كتاب عوالم موازية للروائي الدكتور ماهر مجيد – تقرير ثامر الشمري</p>
+</div>
+</div></section>
     <section id="studies" className="section">
   <div className="section-title">
     <h2>الدراسات والأبحاث</h2>
@@ -304,9 +310,9 @@ export default function Home() {
 </section>
 
     <section id="contact" className="newsletter"><div><h2>لنتواصل</h2><p>تابع جديد المؤلفات والمقالات والفعاليات.</p></div><form><input type="email" placeholder="أدخل بريدك الإلكتروني"/><button>اشترك</button></form><div className="social">تابعني على&nbsp;&nbsp; ◉ &nbsp;◎ &nbsp;𝕏 &nbsp;◍</div></section>
-    <footer><div><strong>أ.د. ماهر مجيد إبراهيم</strong><span>Dr. Samer Alkhayal</span></div><div>الرئيسية　 عن الدكتور　 المؤلفات　 الروايات　 المقالات　 الفعاليات　 الصور والفيديو　 تواصل</div><small>© 2025 جميع الحقوق محفوظة</small></footer>
+    <footer><div><strong>أ.د. ماهر مجيد إبراهيم</strong>Prof. Maher Mageed Ibrahim</div><div>الرئيسية　 عن الدكتور　 المؤلفات　 الروايات　 المقالات　 الفعاليات　 الصور والفيديو　 تواصل</div><small>© 2025 جميع الحقوق محفوظة</small></footer>
   </main>
 }
-function SectionTitle({title,link}:{title:string,link:string}){return <div className="section-title"><h2>{title}</h2><a href="#">{link} ←</a></div>}
+function SectionTitle({title,link}:{title:string,link:string}){return <div className="section-title"><h2>{title}</h2><a href={title==="الصور والفيديو"?"/media":link}>{link} ←</a></div>}
 function Book({img,title,year}:{img:string,title:string,year:string}){return <article className="book"><div className="cover"><Image src={`/images/${img}`} alt={title} fill sizes="150px"/></div><h3>{title}</h3><span>{year}</span></article>}
 function Article({title,date}:{title:string,date:string}){return <article className="article"><div className="thumb"></div><div><h3>{title}</h3><span>{date}</span></div><b>←</b></article>}
