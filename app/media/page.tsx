@@ -40,8 +40,7 @@ export default function MediaPage() {
           حفل توقيع كتاب عوالم موازية للروائي الدكتور ماهر مجيد – تقرير ثامر الشمري
         </h2>
 
-        <video
-          src="/images/video-02-fixed.mp4"
+        https://dwyzAmxFgYQ3K4wA.public.blob.vercel-storage.com/videos/video-02-fixed.mp4
           controls
           style={{
             width: "100%",
@@ -56,8 +55,7 @@ export default function MediaPage() {
           هل كان د. ماهر مجيد متوقع أن يُقبل هذا العمل في مكتب رئيس الوزراء؟ – مبارك عيدكم مع عادل جبار
         </h2>
 
-        <video
-          src="/images/video-03.mp4"
+        https://dwyzAmxFgYQ3K4wA.public.blob.vercel-storage.com/videos/video-03.mp4
           controls
           style={{
             width: "100%",
@@ -72,8 +70,7 @@ export default function MediaPage() {
           ضيف الحلقة .. د. ماهر مجيد إبراهيم – مؤلف مسلسل أولاد جابر
         </h2>
 
-        <video
-          src="/images/video-04.mp4"
+        https://dwyzAmxFgYQ3K4wA.public.blob.vercel-storage.com/videos/video-04.mp4
           controls
           style={{
             width: "100%",
@@ -88,8 +85,7 @@ export default function MediaPage() {
           سرديات الفيلم الروائي القصير.. في محاضرة للأستاذ الدكتور ماهر مجيد إبراهيم
         </h2>
 
-        <video
-          src="/images/video-05.mp4"
+        https://dwyzAmxFgYQ3K4wA.public.blob.vercel-storage.com/videos/video-05.mp4
           controls
           style={{
             width: "100%",
