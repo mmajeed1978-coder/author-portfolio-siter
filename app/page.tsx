@@ -43,7 +43,7 @@ export default function Home() {
     <section id="articles" className="section three"><div><SectionTitle title="أحدث المقالات" link="عرض كل المقالات"/><Article title="السينما والفن: قراءة في أفلام الذاكرة" date="12 أغسطس 2025"/><Article title="الرواية والسينما... تقاطعات سردية" date="28 مايو 2025"/><Article title="صورة المرأة في السينما العربية المعاصرة" date="15 يوليو 2025"/></div><div id="events"><SectionTitle title="الفعاليات والندوات" link="عرض كل الفعاليات"/><Article title="محاضرة: السينما والهوية" date="24 سبتمبر"/><Article title="ندوة: الرواية والسينما" date="10 أكتوبر"/><Article title="مشاركة في مهرجان بغداد السينمائي" date="18 نوفمبر"/></div><div id="media">
   <SectionTitle title="الصور والفيديو" link="عرض الكل"/>
   <div className="video">
-  <video src="/images/video-01.mp4" controls style={{ width: "100%", height: "240px", objectFit: "cover", display: "block" }} />
+  <video src="https://dwyzAmxFgYQ3K4wA.public.blob.vercel-storage.com/videos/video-01.mp4" controls style={{ width: "100%", height: "240px", objectFit: "cover", display: "block" }} />
   <p>حفل توقيع كتاب عوالم موازية للروائي الدكتور ماهر مجيد – تقرير ثامر الشمري</p>
 </div>
 </div></section>
